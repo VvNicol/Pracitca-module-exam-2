@@ -9,10 +9,10 @@
     <div class="container-fluid vh-100">
         <div class="row h-100">
             <div class="col-3 bg-danger-subtle d-flex flex-column ">
-                <button class="btn btn-primary m-1">Lista artículos</button>
-                <button class="btn btn-primary m-1">Lista de clientes</button>
-                <button class="btn btn-primary m-1">Categorías de artículos</button>
-                <button class="btn btn-primary m-1">Tabla de descuentos</button>
+                <button onclick="verLista()" class="btn btn-primary m-1">Lista artículos</button>
+                <button onclick="verListaCliente()" class="btn btn-primary m-1">Lista de clientes</button>
+                <button onclick="verListaCategoria()" class="btn btn-primary m-1">Categorías de artículos</button>
+                <button onclick="verTablaCategoria()" class="btn btn-primary m-1">Tabla de descuentos</button>
             </div>
             <div class="col-9">
                 <div class="row h-50 border border-bottom">
@@ -21,10 +21,12 @@
                 </div>
                 <div class="row h-50">
                     <h2>Artículos</h2>
-                    <div id="aticulos"></div>
+                    <div id="articulos"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="module" src="/mijs/main.js"></script>
 </body>
+
 </html>
